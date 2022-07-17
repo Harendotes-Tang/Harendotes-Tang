@@ -50,3 +50,16 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+hardware/SCH/History
+hardware/SCH/__Previews
+
+
+software/MDK/
+!software/MDK/RTE
+!software/MDK/*.s
+!software/MDK/*.uvprojx
+
+datasheet/EVT
+datasheet/*.ZIP
+
