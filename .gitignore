@@ -51,15 +51,17 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-hardware/SCH/History
-hardware/SCH/__Previews
+hardware/SCH/
+!hardware/SCH/*.SchDoc
 
+hardware/PCB/
+hardware/PCB/*.PcbDoc
 
 software/MDK/
 !software/MDK/RTE
 !software/MDK/*.s
 !software/MDK/*.uvprojx
 
-datasheet/EVT
-datasheet/*.ZIP
+datasheet/
+!datasheet/*.pdf
 
